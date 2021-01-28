@@ -1,0 +1,1 @@
+./configure --disable-shared --prefix=/afs/cern.ch/work/a/abylinki/rapg/rapgap_try01 --with-pythia6="/cvmfs/sft.cern.ch/lcg/external/MCGenerators/pythia6/427/x86_64-slc5-gcc46-opt" --with-lhapdf="/afs/cern.ch/work/a/abylinki/lhapdf/lhapdf_build" --with-hepmc="/afs/cern.ch/work/a/abylinki/hepmc/slc4_amd64_gcc34/"
