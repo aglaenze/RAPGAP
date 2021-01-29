@@ -2,15 +2,10 @@
 
 # Install RAPGAP
 
-mkdir RAPGAP
-cd RAPGAP
+```
 export WORKDIR=$(pwd)
+```
 
-
-
-cp /afs/cern.ch/work/a/abylinki/public/rapgap_m/rapgap-3.301/src/rapgap/* rapgap-3.301/src/rapgap/
-## change this on local machine!!
-rm rapgap-3.301.tar.gz
 
 ## 1) Install HepMC
 

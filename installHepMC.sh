@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export WORKDIR=$(pwd)
+
 git clone https://gitlab.cern.ch/hepmc/HepMC.git
 cd HepMC
 mkdir build

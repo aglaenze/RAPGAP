@@ -5,6 +5,7 @@ export WORKDIR=$(pwd)
 wget --no-verbose --no-check-certificate http://www.hepforge.org/archive/rapgap/rapgap-3.301.tar.gz
 mkdir rapgap-install
 tar xvfz rapgap-3.301.tar.gz
+rm rapgap-3.301.tar.gz
 
 cp rapgap-lib-alexander/* $WORKDIR/rapgap-3.301/src/rapgap/
 
