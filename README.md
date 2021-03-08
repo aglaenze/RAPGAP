@@ -53,14 +53,17 @@ cd $WORKDIR/rapgap-3.301
 ## Warning about LHAPDF
 
 Essai avec la version 6
+```
 wget --no-verbose --no-check-certificate https://lhapdf.hepforge.org/downloads/?f=LHAPDF-6.3.0.tar.gz
 tar xvfz index.html\?f\=LHAPDF-6.3.0.tar.gz
 rm index.html\?f\=LHAPDF-6.3.0.tar.gz
 cd $WORKDIR/LHAPDF-6.3.0
 mkdir install
 ./configure --prefix=$WORKDIR/lhapdf-6.3.0/install
+```
 
 has to be version 5
+```
 wget --no-verbose --no-check-certificate https://lhapdf.hepforge.org/downloads/?f=old/lhapdf-5.9.1.tar.gz
 tar xvfz index.html?f=old%2Flhapdf-5.9.1.tar.gz
 rm index.html?f=old%2Flhapdf-5.9.1.tar.gz
@@ -70,8 +73,10 @@ mkdir install
 ./configure --prefix=$WORKDIR/lhapdf-5.9.1/install CC=gcc-7 CXX=g++-7
 make
 make install
+```
+make install
 
-
+```
 wget https://lhapdf.hepforge.org/downloads/?f=old/lhapdf-5.9.0.tar.gz
 tar xvfz index.html?f=old%2Flhapdf-5.9.0.tar.gz
 rm index.html?f=old%2Flhapdf-5.9.0.tar.gz
@@ -81,8 +86,10 @@ mkdir install
 ./configure --prefix=$WORKDIR/lhapdf-5.9.0/install
 make
 make install
+```
 
-
+```
 export GFORTRAN=/cvmfs/sft.cern.ch/lcg/releases/gcc/7.3.0-cb1ee/x86_64-slc6/bin/gfortran
 /cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0.1-0a5ad/x86_64-slc6/bin/gfortran
+
 
