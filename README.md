@@ -36,16 +36,19 @@ and try again
 
 ## PYTHIA 6
 
+```
 wget --no-verbose --no-check-certificate https://rapgap.hepforge.org/downloads/?f=pythia6428.tgz
 tar xvfz index.html?f=pythia6428.tgz
 rm index.html?f=pythia6428.tgz
 mv pythia6428 pythia6
 cd pythia6
 make lib
+```
 
-
+```
 cd $WORKDIR/rapgap-3.301
 ./configure --disable-shared --prefix=$WORKDIR/rapgap-install --with-pythia6=$WORKDIR/pythia6 --with-lhapdf="/afs/cern.ch/work/a/abylinki/public/lhapdf_build" --with-hepmc=$WORKDIR/HepMC/install
+```
 
 
 
@@ -74,7 +77,7 @@ mkdir install
 make
 make install
 ```
-make install
+
 
 ```
 wget https://lhapdf.hepforge.org/downloads/?f=old/lhapdf-5.9.0.tar.gz
