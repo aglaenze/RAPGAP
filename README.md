@@ -38,6 +38,8 @@ and try again
 
 ```
 wget --no-verbose --no-check-certificate https://rapgap.hepforge.org/downloads/?f=pythia6428.tgz
+wget --no-verbose --no-check-certificate https://rapgap.hepforge.org/downloads/?f=pythia6428.tgz
+
 tar xvfz index.html?f=pythia6428.tgz
 rm index.html?f=pythia6428.tgz
 mv pythia6428 pythia6
@@ -73,7 +75,7 @@ rm index.html?f=old%2Flhapdf-5.9.1.tar.gz
 
 cd $WORKDIR/lhapdf-5.9.1
 mkdir install
-./configure --prefix=$WORKDIR/lhapdf-5.9.1/install CC=gcc-7 CXX=g++-7
+./configure --prefix=$WORKDIR/lhapdf-5.9.1/install --enable-low-memory CC=gcc-7 CXX=g++-7
 make
 make install
 ```
