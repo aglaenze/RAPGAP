@@ -4,9 +4,7 @@
 
 ## 1) Install HepMC
 
-use https://gitlab.cern.ch/hepmc/HepMC/-/tree/HEPMC_02_06_05  
-This version and this version only
-```./installHepMC.sh```
+```./installHepMC.sh``` will download and install https://gitlab.cern.ch/hepmc/HepMC/-/tree/HEPMC_02_06_05 (use this version and this version only).
 
 ## 2) Install Rapgap
 
